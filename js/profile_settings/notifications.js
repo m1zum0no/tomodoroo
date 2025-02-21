@@ -1,3 +1,5 @@
+import { setTime } from '../timer.js';
+
 let notificationEnabled = true;
 let notificationSilent = false;
 let notification;

@@ -1,3 +1,5 @@
+import { setTime } from '../timer.js';
+
 if (localStorage.getItem("pomo-config")) {
 	config = JSON.parse(localStorage.getItem("pomo-config"));
 	setTime();

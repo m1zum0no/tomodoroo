@@ -1,7 +1,6 @@
-
 //#region Time
 
-function setTime() {
+export function setTime() {
 	let seconds = config[roundInfo.current] - roundInfo.t;
 	if (seconds < 0) {
 		nextRound();
