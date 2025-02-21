@@ -5,18 +5,18 @@ const contentToCache = [
 	"/style.css",
 
 	"/sw.js", 
-	"/scripts/main.js",
-	"/scripts/timer.js",
-	"/scripts/statistics.js",
+	"/worker.js",
 
-	"/scripts/utils/worker.js",
-	"/scripts/utils/view.js",
+	"/scripts/main.js",
+	"/scripts/statistics.js",
+	"/scripts/timer.js",
+	"/scripts/view.js",
 
 	"/scripts/profile_settings/audio.js",
 	"/scripts/profile_settings/notifications.js",
 	"/scripts/profile_settings/theming.js",
 	"/scripts/profile_settings/timer_duration.js",
-	
+
 	"/meta/icon192.png",
 	"/meta/icon512.png",
 	"/meta/maskable192.png",
