@@ -1,19 +1,27 @@
 const cacheName = "clock";
 const contentToCache = [
 	"./",
-	"./index.html",
-	"./index.css",
-	"./index.js",
-	"./worker.js",
+	"../../index.html",
+	"../../style.css",
+	
+	"../main.js",
+	"../timer.js",
+	"../statistics.js",
 	"./sw.js",
-	"./icons/icon192.png",
-	"./icons/icon512.png",
-	"./icons/maskable192.png",
-	"./icons/maskable512.png",
-	"./site.webmanifest",
-	"./icons/favicon.png",
-	"./icons/appletouch.png",
-	"./GitHub-Mark-64px.png"
+	"./view.js",
+	"./worker.js",
+	"../profile_settings/audio.js",
+	"../profile_settings/notifications.js",
+	"../profile_settings/theming.js",
+	"../profile_settings/timer_duration.js",
+
+	"../../meta/icon192.png",
+	"../../meta/icon512.png",
+	"../../meta/maskable192.png",
+	"../../meta/maskable512.png",
+	"../../meta/favicon.png",
+	"../../meta/appletouch.png",
+	"../../meta/GitHub-Mark-64px.png"
 ];
 
 self.addEventListener("install", (e) => {

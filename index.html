@@ -5,10 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Pomodoro</title>
-		<link rel="stylesheet" href="./style/index.css" />
+		<link rel="stylesheet" href="./style.css" />
 		<link rel="apple-touch-icon" sizes="180x180" href="./icons/appletouch.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon.png" />
-		<link rel="manifest" href="./site.webmanifest" />
 		<meta name="theme-color" id="theme-meta" content="#222233" />
 		<script src="https://telegram.org/js/telegram-web-app.js?56"></script>
 	</head>
@@ -511,6 +510,18 @@
 			</div>
 			<button id="closeintro" class="hover-shadow">Let's Get Started!</button>
 		</div>
-		<script src="./index.js"></script>
+		<script src="./js/main.js"></script>
+
+		<script src="./js/utils/sw.js"></script>
+		<script src="./js/utils/view.js"></script>
+		<script src="./js/utils/worker.js"></script>
+
+		<script src="./js/profile_settings/audio.js"></script>
+		<script src="./js/profile_settings/notifications.js"></script>
+		<script src="./js/profile_settings/theming.js"></script>
+		<script src="./js/profile_settings/timer_durations.js"></script>
+
+		<script src="./js/statistics.js"></script>
+		<script src="./js/timer.js"></script>
 	</body>
 </html>
